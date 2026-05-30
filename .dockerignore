@@ -1,0 +1,14 @@
+.git
+.venv
+__pycache__
+.pytest_cache
+data
+datasets
+videos
+clips
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.jsonl
+

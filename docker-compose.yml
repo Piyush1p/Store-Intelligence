@@ -1,0 +1,20 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      STORE_INTEL_DB: /data/store_intelligence.db
+      STORE_LAYOUT_PATH: /app/config/store_layout.example.json
+      LOG_LEVEL: INFO
+    volumes:
+      - store_intel_data:/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=2)"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+volumes:
+  store_intel_data:
+
