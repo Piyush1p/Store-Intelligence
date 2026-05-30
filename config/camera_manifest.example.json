@@ -1,0 +1,46 @@
+{
+  "store_id": "ST1008",
+  "video_dir": "C:/path/to/CCTV Footage",
+  "started_at": "2026-04-10T20:10:00Z",
+  "model": "yolov8n.pt",
+  "frame_stride": 3,
+  "dwell_seconds": 30,
+  "cameras": [
+    {
+      "file": "CAM 3.mp4",
+      "camera_id": "CAM_ENTRY_01",
+      "mode": "entry",
+      "threshold_axis": "x",
+      "threshold_ratio": 0.52,
+      "outside_side": "high",
+      "notes": "Visual inspection shows the exterior/entry side is on the right; crossing right-to-left is ENTRY."
+    },
+    {
+      "file": "CAM 1.mp4",
+      "camera_id": "CAM_FLOOR_SKINCARE_01",
+      "mode": "zone",
+      "zones_json": "zones_cam1.example.json"
+    },
+    {
+      "file": "CAM 2.mp4",
+      "camera_id": "CAM_FLOOR_MAKEUP_01",
+      "mode": "zone",
+      "zones_json": "zones_cam2.example.json"
+    },
+    {
+      "file": "CAM 4.mp4",
+      "camera_id": "CAM_EXTRA_04",
+      "mode": "zone",
+      "enabled": false,
+      "notes": "Enable after calibrating visible zones for this camera."
+    },
+    {
+      "file": "CAM 5.mp4",
+      "camera_id": "CAM_EXTRA_05",
+      "mode": "zone",
+      "enabled": false,
+      "notes": "Enable after calibrating visible zones for this camera."
+    }
+  ]
+}
+

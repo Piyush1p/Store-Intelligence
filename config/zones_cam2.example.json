@@ -1,0 +1,20 @@
+{
+  "zones": [
+    {
+      "zone_id": "MAKEUP",
+      "label": "Makeup wall bays visible in CAM 2",
+      "polygon": [[0.30, 0.02], [1.00, 0.02], [1.00, 0.92], [0.34, 0.84]]
+    },
+    {
+      "zone_id": "ACCESSORIES",
+      "label": "Accessories and left-side wall area",
+      "polygon": [[0.00, 0.05], [0.30, 0.05], [0.34, 0.58], [0.00, 0.72]]
+    },
+    {
+      "zone_id": "MAKEUP_UNIT",
+      "label": "Lower center display island",
+      "polygon": [[0.16, 0.55], [0.58, 0.55], [0.66, 1.00], [0.08, 1.00]]
+    }
+  ]
+}
+

@@ -1,0 +1,20 @@
+{
+  "zones": [
+    {
+      "zone_id": "SKINCARE",
+      "label": "Left and center skincare wall bays visible in CAM 1",
+      "polygon": [[0.00, 0.00], [0.87, 0.00], [0.87, 0.63], [0.00, 0.90]]
+    },
+    {
+      "zone_id": "MAKEUP_UNIT",
+      "label": "Central/lower makeup display island",
+      "polygon": [[0.28, 0.55], [0.78, 0.55], [0.78, 1.00], [0.28, 1.00]]
+    },
+    {
+      "zone_id": "PMU",
+      "label": "Right-side PMU demo area",
+      "polygon": [[0.78, 0.22], [1.00, 0.22], [1.00, 0.92], [0.78, 0.92]]
+    }
+  ]
+}
+

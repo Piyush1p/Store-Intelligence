@@ -1,0 +1,49 @@
+{
+  "stores": [
+    {
+      "store_id": "ST1008",
+      "store_name": "Brigade_Bangalore",
+      "city": "Bangalore",
+      "open_hours": {
+        "timezone": "Asia/Kolkata",
+        "daily": {
+          "open": "10:00",
+          "close": "22:00"
+        }
+      },
+      "cameras": [
+        {
+          "camera_id": "CAM_ENTRY_01",
+          "coverage": ["ENTRY_THRESHOLD", "FOH"]
+        },
+        {
+          "camera_id": "CAM_FLOOR_SKINCARE_01",
+          "coverage": ["SKINCARE", "MAKEUP_UNIT", "PMU"]
+        },
+        {
+          "camera_id": "CAM_FLOOR_MAKEUP_01",
+          "coverage": ["MAKEUP", "ACCESSORIES", "MAKEUP_UNIT"]
+        },
+        {
+          "camera_id": "CAM_EXTRA_04",
+          "coverage": ["FOH"]
+        },
+        {
+          "camera_id": "CAM_EXTRA_05",
+          "coverage": ["FOH"]
+        }
+      ],
+      "zones": [
+        {"zone_id": "ENTRY_THRESHOLD", "label": "Entry glass and door threshold", "polygon": [[0.00, 0.25], [0.12, 0.25], [0.12, 0.95], [0.00, 0.95]]},
+        {"zone_id": "FOH", "label": "Front of house circulation", "polygon": [[0.12, 0.18], [0.80, 0.18], [0.80, 0.92], [0.12, 0.92]]},
+        {"zone_id": "SKINCARE", "label": "Skin care wall bays", "polygon": [[0.11, 0.00], [0.78, 0.00], [0.78, 0.17], [0.11, 0.17]]},
+        {"zone_id": "MAKEUP", "label": "Makeup gondolas and wall bays", "polygon": [[0.13, 0.72], [0.73, 0.72], [0.73, 1.00], [0.13, 1.00]]},
+        {"zone_id": "MAKEUP_UNIT", "label": "Central makeup unit", "polygon": [[0.52, 0.36], [0.63, 0.36], [0.63, 0.55], [0.52, 0.55]]},
+        {"zone_id": "BATH_AND_BODY", "label": "DermDoc and body wash zone", "polygon": [[0.40, 0.00], [0.49, 0.00], [0.49, 0.17], [0.40, 0.17]]},
+        {"zone_id": "PERSONAL_CARE", "label": "PMU and grooming zone", "polygon": [[0.93, 0.62], [1.00, 0.62], [1.00, 0.88], [0.93, 0.88]]},
+        {"zone_id": "CASH_COUNTER", "label": "Cash counter and billing queue", "polygon": [[0.82, 0.25], [0.92, 0.25], [0.92, 0.67], [0.82, 0.67]]},
+        {"zone_id": "ACCESSORIES", "label": "Accessories wall bay", "polygon": [[0.79, 0.00], [0.89, 0.00], [0.89, 0.17], [0.79, 0.17]]}
+      ]
+    }
+  ]
+}
